@@ -2,7 +2,10 @@
 
 class Card{
     constructor(paramOptions, clickCallback){
+        //bind callbacks
         this.handleClick = this.handleClick.bind(this);
+        
+        //store any passed in properties (parameters)
         this.options = {
             frontImage: paramOptions.frontImage,
             backImage: paramOptions.backImage,
@@ -10,6 +13,8 @@ class Card{
             sounds: paramOptions.sounds
         }
         this.clickCallback = clickCallback;
+
+        //store any required initial state for later use
         this.domElements = {
             cardContainer: null,
             card: null,
@@ -18,7 +23,7 @@ class Card{
         }
     }
     handleClick(){
-            this.clickCallback( this );
+        this.clickCallback( this );
     }
     playSound( key ){
         if(!this.options.sounds.hasOwnProperty( key )){
