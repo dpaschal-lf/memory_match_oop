@@ -20,11 +20,11 @@
         </div>
     </div>
     ```
-        1. stores the dom structure into this object's state
-        1. adds a click handler to the outermost dom element that links to this object's handleClick
-        1. adds a background image to the front face dom element with the frontImage from the data stored in this object's state
-        1. adds a background image to the back face dom element with the backImage from the data stored in this object's state
-        1. returns the outermost dom element that contains the rest of the dom elements
+    1. stores the dom structure into this object's state
+    1. adds a click handler to the outermost dom element that links to this object's handleClick
+    1. adds a background image to the front face dom element with the frontImage from the data stored in this object's state
+    1. adds a background image to the back face dom element with the backImage from the data stored in this object's state
+    1. returns the outermost dom element that contains the rest of the dom elements
 
 1. handleClick
     - parameters: none
