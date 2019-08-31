@@ -11,8 +11,7 @@
     prameters: none
     returns: a jquery dom object
     purpose:
-        1. recreates the following dom structure
-```
+        1. recreates the following dom structure```
 <div class="cardContainer">
     <div class="card">
         <div class="front" style="background-image: url(images/donald1.jpg);"></div>
