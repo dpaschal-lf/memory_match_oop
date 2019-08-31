@@ -43,13 +43,11 @@
     returns: none
     purpose:
         1. takes this object's backface dom element and shows it
-
 1. getID
     parameters: none
     returns: this object's id
     purpose:
         1. returns this object's ID, which it got when it was constructed
-
 1. playSound
     parameters: (string) key
     returns: none
