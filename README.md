@@ -11,14 +11,15 @@
     prameters: none
     returns: a jquery dom object
     purpose:
-        1. recreates the following dom structure```
-<div class="cardContainer">
-    <div class="card">
-        <div class="front" style="background-image: url(images/donald1.jpg);"></div>
-        <div class="back" style="background-image: url(images/disneylogo.jpg);"></div>
+        1. recreates the following dom structure
+    ```
+    <div class="cardContainer">
+        <div class="card">
+            <div class="front" style="background-image: url(images/donald1.jpg);"></div>
+            <div class="back" style="background-image: url(images/disneylogo.jpg);"></div>
+        </div>
     </div>
-</div>
-```
+    ```
         1. stores the dom structure into this object's state
         1. adds a click handler to the outermost dom element that links to this object's handleClick
         1. adds a background image to the front face dom element with the frontImage from the data stored in this object's state
