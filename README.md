@@ -33,15 +33,15 @@
         1. calls this object's clickCallback function and passes to it the argument of this object
 
 1. revealFront
-    parameters: none
-    returns: none
-    purpose:
+    - parameters: none
+    - returns: none
+    - purpose:
         1. takes this object's backface dom element and hides it
     
 1. revealBack
-    parameters: none
-    returns: none
-    purpose:
+    - parameters: none
+    - returns: none
+    - purpose:
         1. takes this object's backface dom element and shows it
 
 1. getID
